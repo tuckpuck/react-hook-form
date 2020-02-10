@@ -51,30 +51,5 @@ export default function App() {
 
       <input type="submit" />
     </form>
-    // <form onSubmit={handleSubmit(onSubmit)}>
-    //   <input
-    //     id="nameInput"
-    //     className="formInput"
-    //     type="text"
-    //     placeholder="Name"
-    //     name="Name"
-    //     ref={register({ required: true })}
-    //   />
-    //   <input
-    //     id="emailInput"
-    //     className="formInput"
-    //     type="text"
-    //     placeholder="Email"
-    //     name="Email"
-    //     ref={register({ required: true, pattern: /^\S+@\S+$/i })}
-    //   />
-    //   <textarea
-    //     id="messageInput"
-    //     name="Message"
-    //     ref={register({ required: true })}
-    //   />
-
-    //   <input type="submit" />
-    // </form>
   );
 }
